@@ -24,3 +24,14 @@ def greet_with(name, location):
     print(f"What is it like in {location}?")
 
 greet_with("Arinze", "Nigeria")   
+
+
+# Functions with keyword arguments
+user_name = input("Please enter your name: ")
+user_location = input("Please enter your location: ")
+def vote_change(voter_name = user_name , voter_location = user_location):
+    print(f"Hello {voter_name} please vote for change")
+    print(f"Vote at {voter_location} for a better tomorrow ")
+    
+    
+vote_change()

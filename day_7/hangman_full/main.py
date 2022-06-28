@@ -13,7 +13,7 @@ lives = 6
 
 #TODO-3: - Import the logo from hangman_art.py and print it at the start of the game.
 print(hangman_art.logo)
-user_name = input("Enter your player name")
+user_name = input("Enter your player name: ")
 #Testing code
 # print(f'Pssst, the solution is {chosen_word}.')
 
@@ -50,7 +50,7 @@ while not end_of_game:
     #Check if user has got all letters.
     if "_" not in display:
         end_of_game = True
-        print("{user_name} win.")
+        print("{user_name} wins.")
 
     #TODO-2: - Import the stages from hangman_art.py and make this error go away.
 
